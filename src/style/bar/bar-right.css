@@ -1,0 +1,6 @@
+.rightMenu{
+    float: right;
+    margin-right: 20px;
+    user-select: none;
+    direction: rtl;
+}

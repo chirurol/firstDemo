@@ -1,0 +1,54 @@
+.options{
+    height: 100%;
+    color: black;
+    font-size: 8px;
+    font-weight: bold;
+    padding: 5px;
+    user-select: none;
+    text-align: center;
+}
+.pickedOpt{
+    background-color: lightgray;
+    border-radius: 5px;
+}
+.unpickedOpt{
+    background-color: white;
+}
+img{
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    /* margin: 0 auto; */
+}
+.optName{
+    position: relative;
+    left: 15px;
+}
+.keys{
+    float: right;
+    color: lightgray;
+}
+.arrow{
+    float: right;
+    color: white;
+    font-weight: bold;
+}
+
+.subMenu{
+    user-select: none;
+    margin: 3px;
+    border-radius: 3px;
+    height: 20px;
+    padding: 2px 5px;
+    font-size: 13px;
+    color: white;
+}
+.unpicked{
+    opacity: 0.75;
+}
+.picked{
+    background-color: lightskyblue;
+}
+.unpickable{
+    color: #8f8f8f;
+}

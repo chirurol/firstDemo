@@ -1,0 +1,16 @@
+.options{
+    height: 100%;
+    color: black;
+    font-size: 8px;
+    font-weight: bold;
+    padding: 5px;
+    user-select: none;
+    text-align: center;
+}
+.pickedOpt{
+    background-color: lightgray;
+    border-radius: 5px;
+}
+.unpickedOpt{
+    background-color: white;
+}
